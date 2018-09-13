@@ -1,0 +1,8 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "tutorial build a RESTful API using Node, Express, Mongo",
+  "main": "server.js",
+  "author": "Fernando",
+  "license": "MIT"
+}
