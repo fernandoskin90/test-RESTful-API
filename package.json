@@ -2,7 +2,17 @@
   "name": "api-rest",
   "version": "1.0.0",
   "description": "tutorial build a RESTful API using Node, Express, Mongo",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
   "main": "server.js",
   "author": "Fernando",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
 }
